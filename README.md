@@ -1,18 +1,10 @@
-Site scaffold for review — no logic added yet.
+Samuel Blanco — Portfolio
 
-Please review the file structure below and reply with any changes before I implement interactive logic or styling.
+Live site: https://shiny-jelly-c67ef9.netlify.app/
 
-Structure:
-- index.html — Hero, links to resume and projects (placeholder content)
-- css/style.css — placeholder stylesheet
-- resume/README.md — place `resume.pdf` here when ready
-- projects/README.md — projects index
-- projects/calculator/README.md — links to live demo and repo
-- assets/ — screenshots and diagrams
 
-Approval checklist:
-- Confirm file structure
-- Provide `resume.pdf` (optional now)
-- Provide 2–3 screenshots for Projects (optional now)
+The Orchestration Log:
 
-After you approve, I will add content, styles, and then small deploy config for Netlify.
+- I initially attempted to apply a strategy file at the workspace root but a patch error occurred (missing parameters and an invalid path); I corrected this by reapplying the patch to `/NJIT/2026/AGENTS.md` and confirming the file creation.
+- I also preserved the original README content in `README_ARCHIVE.md` so the scaffold notes remain available.
+- I also had some permission errors trying to connect the local files to the github repo, but eventually I was able to pull and commit, then push the changes. 
